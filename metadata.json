@@ -1,0 +1,6 @@
+{
+  "name": "FlowPulse - Intelligent Task & Calendar Planner",
+  "description": "Organize daily tasks with an integrated calendar, priority notifications, and AI-powered smart workflow suggestions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -26,9 +26,15 @@ Modern knowledge workers and engineers frequently juggle separate applications f
 - **Lucide React**: Clean, consistent icon set for navigation and interactive affordances.
 - **Web Audio API**: Pure in-browser synthesized chimes for priority notifications and completions (zero external audio file dependencies).
 
-### Backend
-- **Node.js & Express**: Lightweight backend server serving API endpoints and mounting Vite development middleware.
-- **tsx**: Direct TypeScript execution for the full-stack server runtime.
+### Backend & Python Implementation
+- **Python 3 Backend & CLI (`python_backend/`)**:
+  - Full Python dataclass models (`models.py`)
+  - Pure Python scheduling & conflict detection engine (`task_logic.py`)
+  - Python `unittest` test suite (`test_task_logic.py`)
+  - Standalone Python HTTP REST API server (`app.py`)
+  - Interactive Python Terminal CLI (`cli.py`)
+  - See [PYTHON_GUIDE.md](PYTHON_GUIDE.md) for full Python documentation!
+- **Node.js & Express (`server.ts`)**: Serves the live web browser client and mounts Vite middleware for previewing.
 
 ### AI & Intelligence
 - **Google GenAI SDK (`@google/genai`)**: Integrated with `gemini-3.8-flash` to power:
